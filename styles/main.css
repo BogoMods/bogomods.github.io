@@ -1,0 +1,92 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(29, 31, 34);
+    margin: 0;
+    padding: 0;
+}
+nav ul{
+    text-align: right;
+    padding-right: 0px;
+    list-style-type: none;
+    margin: 10px;
+}
+nav li{
+display: inline-block;
+margin-right: 20px;
+}
+li{
+    font-size: 35px;
+}
+header a{
+text-decoration: none;
+color: white;
+font-weight: bold;
+}
+.Popisky {
+    background:
+      linear-gradient(currentColor 0 0) 0 100% /var(--d, 0) 3px no-repeat,
+      linear-gradient(currentColor 0 0) 100% calc(100% - 6px) /var(--d, 0) 3px no-repeat;
+    transition: 0s 0.5s, background-size 0.5s;
+  }
+  
+  .Popisky:hover {
+      color: #389fff;
+    --d: 100%;
+    background-position: 0% calc(100% - 3px), 100% calc(100% - 3px);
+    transition: 0.3s, background-position 0.3s 0.3s;
+  }
+  hr{
+      height: 3px;
+      background-color: white;
+      margin: 0;
+  }
+  li:first-child{
+      margin-top: -5px;
+      font-weight: bold;
+      font-size: 40px;
+      color: rgb(56, 159, 255);
+float: left;
+}
+.logo{
+    float: right ;
+    text-indent: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  background-image: url("/images/Home_Icon.png");
+  background-size: 55px;
+  background-repeat: no-repeat;
+  display: block;
+  height: 55px;
+  position: relative;
+  width: 55px;
+  top: -3px;
+}
+.logo-click {
+    padding: 0;
+    margin: 0px;
+    display: block;
+    position: relative;
+    height: 55px;
+    width: 55px;
+    }
+.logo:hover{
+    background-image: url("/images/Home_Icon_Blue.png");
+    }
+.banner{
+  z-index: -2;
+  background-image: url("/images/DOJ Banner.png");
+  background-size: contain;
+  background-repeat: none;
+}
+img{
+  z-index: -2;
+  position: absolute;
+  margin-top: 100px;
+  width: 100%;
+  height: 300px;
+}
+iframe{
+  z-index: 2;
+  margin-top: 122px;
+  margin-left: 30px;
+}
